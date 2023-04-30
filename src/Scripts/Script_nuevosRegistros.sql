@@ -1,0 +1,54 @@
+/*insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Timmie', 'Stewart', 'tstewart0@netlog.com', '2002-11-05', 'Philippines', 'Health Coach III', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Vincent', 'Stit', 'vstit1@posterous.com', '1994-08-28', 'Russia', 'Junior Executive', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Livy', 'Ricardin', 'lricardin2@google.es', '1983-12-28', 'Brazil', 'Mechanical Systems Engineer', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Felix', 'Oiller', 'foiller3@ihg.com', '1995-02-13', 'China', 'Director of Sales', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Dallas', 'Agirre', 'dagirre4@reuters.com', '1973-05-18', 'China', 'Payment Adjustment Coordinator', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Israel', 'MacCoveney', 'imaccoveney5@pen.io', '2004-06-02', 'Ukraine', 'Software Test Engineer IV', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Caroljean', 'Guiden', 'cguiden6@bluehost.com', '2011-09-20', 'Indonesia', 'Graphic Designer', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Dave', 'Strodder', 'dstrodder7@cnet.com', '1986-01-26', 'Yemen', 'Structural Analysis Engineer', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Athene', 'O''Hanley', 'aohanley8@gravatar.com', '2016-12-13', 'Albania', 'Nurse', 3);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Rance', 'Lark', 'rlark9@samsung.com', '1991-03-13', 'Russia', 'Engineer I', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Aili', 'Salzburg', 'asalzburga@ezinearticles.com', '1968-09-18', 'Indonesia', 'Web Developer IV', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Midge', 'Oertzen', 'moertzenb@imgur.com', '1986-12-06', 'China', 'Assistant Media Planner', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Ashla', 'Woodhead', 'awoodheadc@microsoft.com', '1978-01-31', 'Indonesia', 'Business Systems Development Analyst', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Eudora', 'Howsan', 'ehowsand@domainmarket.com', '1979-10-20', 'Thailand', 'Senior Financial Analyst', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Bette', 'Callway', 'bcallwaye@icq.com', '1992-09-11', 'Republic of the Congo', 'Design Engineer', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Austina', 'Akenhead', 'aakenheadf@ezinearticles.com', '1995-12-21', 'Iraq', 'Technical Writer', 3);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Andree', 'Bibb', 'abibbg@drupal.org', '2016-06-01', 'South Africa', 'Business Systems Development Analyst', 3);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Arvy', 'Liddel', 'aliddelh@theatlantic.com', '1993-05-10', 'Myanmar', 'Internal Auditor', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Angelo', 'Pordall', 'apordalli@infoseek.co.jp', '2001-10-08', 'Indonesia', 'Quality Control Specialist', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Leif', 'Flemmich', 'lflemmichj@devhub.com', '1976-06-08', 'Croatia', 'Cost Accountant', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Rachel', 'Antonietti', 'rantoniettik@craigslist.org', '1969-09-22', 'Indonesia', 'Civil Engineer', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Karol', 'Erwin', 'kerwinl@vkontakte.ru', '2004-06-21', 'Brazil', 'Administrative Officer', 3);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Belinda', 'Godbald', 'bgodbaldm@biglobe.ne.jp', '1971-07-12', 'Finland', 'Senior Editor', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Elinore', 'Sergeant', 'esergeantn@lulu.com', '1983-09-09', 'Peru', 'Software Consultant', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Syd', 'Hincks', 'shinckso@ftc.gov', '1981-05-23', 'Tunisia', 'Account Coordinator', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Tamera', 'Callear', 'tcallearp@shareasale.com', '1976-08-10', 'China', 'Structural Engineer', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Alexei', 'Fluger', 'aflugerq@sbwire.com', '2005-12-12', 'Dominica', 'Pharmacist', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Ruprecht', 'Bineham', 'rbinehamr@google.nl', '1999-03-02', 'Indonesia', 'Teacher', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Yasmeen', 'Cockerill', 'ycockerills@yahoo.co.jp', '1974-03-26', 'Brazil', 'Technical Writer', 3);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Currey', 'Murdy', 'cmurdyt@forbes.com', '1997-11-10', 'Albania', 'Account Coordinator', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Lee', 'Cleugh', 'lcleughu@wp.com', '1977-01-05', 'Sweden', 'Paralegal', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Clarette', 'Hamill', 'chamillv@hexun.com', '1977-01-15', 'France', 'Environmental Specialist', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Karalee', 'Plante', 'kplantew@imdb.com', '1982-04-18', 'Canada', 'Engineer I', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Kial', 'Chismon', 'kchismonx@timesonline.co.uk', '1980-08-08', 'Indonesia', 'Accounting Assistant IV', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Phil', 'Seery', 'pseeryy@studiopress.com', '1978-09-27', 'China', 'Software Engineer IV', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Lonni', 'Taks', 'ltaksz@princeton.edu', '1992-02-14', 'China', 'Speech Pathologist', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Abie', 'Poupard', 'apoupard10@squidoo.com', '2012-10-19', 'Thailand', 'Media Manager IV', 3);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Flora', 'Railton', 'frailton11@tripod.com', '1975-12-12', 'Yemen', 'Chemical Engineer', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Nicko', 'Vinton', 'nvinton12@macromedia.com', '1983-06-29', 'Syria', 'Senior Quality Engineer', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Indira', 'Hinder', 'ihinder13@weibo.com', '2016-12-01', 'China', 'Technical Writer', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Hedwiga', 'Perle', 'hperle14@baidu.com', '2010-08-23', 'Philippines', 'Compensation Analyst', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Kimble', 'Lourenco', 'klourenco15@angelfire.com', '1981-10-16', 'Brazil', 'Payment Adjustment Coordinator', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Meta', 'Sheryne', 'msheryne16@hud.gov', '2002-10-01', 'Poland', 'Account Executive', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Siffre', 'Brilleman', 'sbrilleman17@google.com.hk', '1987-05-14', 'Angola', 'Sales Representative', 3);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Molli', 'Ashworth', 'mashworth18@rambler.ru', '2018-03-16', 'Greece', 'Research Assistant I', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Fraser', 'Le Prevost', 'fleprevost19@blogger.com', '1999-05-09', 'Argentina', 'Operator', 2);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Lethia', 'Matchell', 'lmatchell1a@printfriendly.com', '1999-02-06', 'Philippines', 'Paralegal', 4);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Irwinn', 'Suttie', 'isuttie1b@sfgate.com', '2002-10-19', 'Armenia', 'Professor', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Aubrey', 'Talboy', 'atalboy1c@springer.com', '1980-06-02', 'Bolivia', 'Sales Representative', 1);
+insert into persona (nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id) values ('Justis', 'Lant', 'jlant1d@mozilla.com', '1986-12-29', 'Republic of the Congo', 'Account Executive', 2);
+*/
+
+
+
