@@ -30,9 +30,9 @@ El proyecto destaca por la explicación detallada de cada uno de los módulos, a
 ### Programas utilizados
 Repositorio de los recuersos
 https://github.com/Deyson19/CRUD-JAVA_MVC-Recursos
-[Descargar NetBeans]
+- [Descargar NetBeans]
 (https://netbeans.apache.org/download/index.html)
-[Descargar Laragon]
+- [Descargar Laragon]
 (https://laragon.org/download/index.html)
-[Descagar HeidiSQL]
+- [Descagar HeidiSQL]
 (https://www.heidisql.com/download.php)
