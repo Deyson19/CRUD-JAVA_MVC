@@ -6,12 +6,9 @@ package Models;
 
 import java.util.Date;
 
-/**
- *
- * @author Deyson Vente
- */
+// CRUD Desarrollado por Deyson
 public class Persona {
-    private String Nombre, Apellidos, Correo,Pais,Profesion;
+    private String Nombre, Apellidos, Correo, Pais, Profesion;
     private int Rol_id;
     private Date Fecha_nacimiento;
 
@@ -73,7 +70,5 @@ public class Persona {
     public void setFecha_nacimiento(Date Fecha_nacimiento) {
         this.Fecha_nacimiento = Fecha_nacimiento;
     }
-    
-    
-    
+
 }

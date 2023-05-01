@@ -16,10 +16,7 @@ import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Deyson Vente
- */
+// CRUD Desarrollado por Deyson
 /**
  * Clase controladora que implementa el gestor de datos para la clase Persona.
  * Utiliza una conexión a la base de datos local.
@@ -42,8 +39,9 @@ public class PersonaController implements IGestorDatos<Persona> {
      * @param objecto el objeto Persona que se va a crear en la base de datos.
      */
     public void creacion(Persona objecto) {
-        if (objecto.getRol_id()==0) {
-            JOptionPane.showMessageDialog(null, "Debes seleccionar un Rol válido", "No se puede seleccionar este rol.", JOptionPane.ERROR_MESSAGE);
+        if (objecto.getRol_id() == 0) {
+            JOptionPane.showMessageDialog(null, "Debes seleccionar un Rol válido", "No se puede seleccionar este rol.",
+                    JOptionPane.ERROR_MESSAGE);
             return;
         }
         try {
@@ -128,8 +126,9 @@ public class PersonaController implements IGestorDatos<Persona> {
      * @param id               El id de la persona a actualizar.
      */
     public void actualziar(Persona objetoActualizar, int id) {
-        if (objetoActualizar.getRol_id()==0) {
-            JOptionPane.showMessageDialog(null, "Debes seleccionar un Rol válido", "No se puede seleccionar este rol.", JOptionPane.ERROR_MESSAGE);
+        if (objetoActualizar.getRol_id() == 0) {
+            JOptionPane.showMessageDialog(null, "Debes seleccionar un Rol válido", "No se puede seleccionar este rol.",
+                    JOptionPane.ERROR_MESSAGE);
             return;
         }
         String sqlActualizar = "Update persona set nombre=?,apellidos=?,correo=?,fecha_nacimiento=?,pais=?,profesion=?,rol_id=? where id='"

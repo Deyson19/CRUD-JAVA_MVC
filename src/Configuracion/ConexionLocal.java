@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Configuracion;
 
 import Interface.IGestorConexion;
@@ -12,10 +9,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Deyson Vente
- */
+// CRUD Desarrollado por Deyson
 /**
  * La clase ConexionLocal representa una conexión local a una base de datos
  * MySQL.
@@ -118,7 +112,8 @@ public class ConexionLocal implements IGestorConexion {
             conexion = DriverManager.getConnection(this.url, this.usuario, this.clave);
             System.out.println("Conectado a la base de datos local");
         } catch (ClassNotFoundException | SQLException ex) {
-            JOptionPane.showMessageDialog(null, "No se puede conectar al servidor, por revisa el servidor", "Problemas al conectar", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "No se puede conectar al servidor, por revisa el servidor",
+                    "Problemas al conectar", JOptionPane.ERROR_MESSAGE);
             System.exit(1);
         }
     }

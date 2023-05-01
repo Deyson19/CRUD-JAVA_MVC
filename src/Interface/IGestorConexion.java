@@ -4,10 +4,7 @@
  */
 package Interface;
 
-/**
- *
- * @author Deyson Vente
- */
+// CRUD Desarrollado por Deyson
 /**
  * La interfaz IGestorConexion define el comportamiento de los objetos
  * que gestionan la conexión a una base de datos.

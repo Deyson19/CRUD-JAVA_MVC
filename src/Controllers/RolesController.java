@@ -17,10 +17,7 @@ import java.util.Collections;
 import java.util.List;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Deyson Vente
- */
+// CRUD Desarrollado por Deyson
 /**
  * Clase que controla la lógica de negocios relacionada con los roles del
  * sistema.

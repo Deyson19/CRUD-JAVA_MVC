@@ -8,23 +8,20 @@ import Configuracion.ComprobadorServidor;
 import Configuracion.ConexionLocal;
 import Vistas.Personas;
 
-/**
- *
- * @author Deyson Vente
- */
+// CRUD Desarrollado por Deyson
 public class CRUDJAVA_MVC {
 
     /**
      * Método principal de la aplicación que muestra la ventana de Personas.
      *
      * @param args los argumentos de la línea de comandos (no se utilizan en
-     * esta aplicación)
+     *             esta aplicación)
      */
     public static void main(String[] args) {
         // Crear una instancia de la ventana Personas
         Personas mostrarFormPersonas = new Personas();
         ComprobadorServidor comp = new ComprobadorServidor();
-        //Se comprueba el estado de la conexion al servidor
+        // Se comprueba el estado de la conexion al servidor
         if (comp.comprobarConexion() == true) {
             // Establecer la ubicación de la ventana en el centro de la pantalla
             mostrarFormPersonas.setLocationRelativeTo(null);

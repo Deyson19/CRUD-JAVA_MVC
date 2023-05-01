@@ -4,10 +4,7 @@
  */
 package Models;
 
-/**
- *
- * @author Deyson Vente
- */
+// CRUD Desarrollado por Deyson
 /**
  * Español/Spanish
  * La clase Roles representa un objeto de roles en el sistema.
