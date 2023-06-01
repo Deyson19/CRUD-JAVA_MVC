@@ -13,6 +13,9 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 import javax.swing.JOptionPane;
 
@@ -28,14 +31,13 @@ public class PersonaController implements IGestorDatos<Persona> {
 
     /**
      * Crea una nueva persona en la base de datos.
-     * 
+     *
      * @param persona Objeto Persona que se desea crear.
      */
-
     @Override
     /**
      * Crea un nuevo registro de Persona en la base de datos.
-     * 
+     *
      * @param objecto el objeto Persona que se va a crear en la base de datos.
      */
     public void creacion(Persona objecto) {
@@ -76,12 +78,11 @@ public class PersonaController implements IGestorDatos<Persona> {
     @Override
     /**
      * Realiza una lectura de la base de datos y devuelve la información de una
-     * persona
-     * a partir de su identificador.
-     * 
+     * persona a partir de su identificador.
+     *
      * @param id Identificador de la persona a buscar en la base de datos.
-     * @return Objeto Persona con la información de la persona encontrada en la base
-     *         de datos.
+     * @return Objeto Persona con la información de la persona encontrada en la
+     * base de datos.
      */
     public Persona lectura(int id) {
         String sql = "SELECT nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id "
@@ -121,9 +122,9 @@ public class PersonaController implements IGestorDatos<Persona> {
     @Override
     /**
      * Actualiza los datos de una persona en la base de datos.
-     * 
+     *
      * @param objetoActualizar La persona con los nuevos datos.
-     * @param id               El id de la persona a actualizar.
+     * @param id El id de la persona a actualizar.
      */
     public void actualziar(Persona objetoActualizar, int id) {
         if (objetoActualizar.getRol_id() == 0) {
@@ -173,7 +174,7 @@ public class PersonaController implements IGestorDatos<Persona> {
             connNewAdmin.conectar(); // Abrir conexión con la base de datos
             PreparedStatement elimacion = connNewAdmin.getConexion().prepareStatement(eliminar);
             int filasAfectadas = elimacion.executeUpdate(); // Ejecutar la sentencia SQL de eliminación y obtener el
-                                                            // número de filas afectadas
+            // número de filas afectadas
             if (filasAfectadas > 0) {
                 // Mostrar un mensaje de éxito si se eliminó al menos una fila
                 JOptionPane.showMessageDialog(null, "Datos Eliminados");
@@ -189,6 +190,39 @@ public class PersonaController implements IGestorDatos<Persona> {
         } finally {
             connNewAdmin.desconectar(); // Cerrar la conexión con la base de datos
         }
+    }
+
+    public List<Persona> traerPersonas() {
+        List<Persona> listadoPersonas = new ArrayList<>();
+
+        String traerPersonas = "SELECT nombre, apellidos, correo, fecha_nacimiento, pais, profesion, rol_id FROM Persona order by rol_id";
+
+        try {
+            connNewAdmin.conectar();
+            PreparedStatement ptPersonas = connNewAdmin.getConexion().prepareStatement(traerPersonas);
+            ResultSet asignarPersonaTraida = ptPersonas.executeQuery();
+
+            while (asignarPersonaTraida.next()) {
+                Persona personaTraida = new Persona();
+                personaTraida.setNombre(asignarPersonaTraida.getString("nombre"));
+                personaTraida.setApellidos(asignarPersonaTraida.getString("apellidos"));
+                personaTraida.setCorreo(asignarPersonaTraida.getString("correo"));
+                personaTraida.setFecha_nacimiento(asignarPersonaTraida.getDate("fecha_nacimiento"));
+                personaTraida.setPais(asignarPersonaTraida.getString("pais"));
+                personaTraida.setProfesion(asignarPersonaTraida.getString("profesion"));
+                personaTraida.setRol_id(asignarPersonaTraida.getInt("rol_id"));
+                listadoPersonas.add(personaTraida);
+
+            }
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Error al recuperar peronas ");
+            return Collections.emptyList();
+
+        }
+        return listadoPersonas;
+    }
+    public List<Persona> listadoTodasLasPersonas(){
+        return traerPersonas();
     }
 
 }
